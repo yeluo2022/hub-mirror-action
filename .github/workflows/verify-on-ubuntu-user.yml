@@ -16,7 +16,7 @@ jobs:
         src: github/yeluo2022
         dst: gitee/hyh1219790234
         dst_key: ${{ secrets.ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC6RdGECOEbcV1sKRa00p8qWClVfJOaa5F0CC0T1/Xb7 Gitee SSH Key }}
-        dst_token:  ${{ secrets.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 }}
+        dst_token:  ${{ secrets.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 }}
         static_list: 'hub-mirror-action,hashes, simple-spring'
         force_update: true
         debug: true
