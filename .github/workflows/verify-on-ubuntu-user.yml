@@ -13,8 +13,8 @@ jobs:
     - name: Mirror Github to Gitee with white list
       uses: ./.
       with:
-        src: github/Yikun
-        dst: gitee/yikunkero
+        src: github/yeluo2022
+        dst: gitee/hyh1219790234
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.GITEE_TOKEN }}
         static_list: 'hub-mirror-action,hashes, simple-spring'
